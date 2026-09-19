@@ -20,8 +20,8 @@
       {
         devShells.default = pkgs.mkShell {
           buildInputs = [
-            pkgs.lefthook
             pkgs.gitleaks
+            pkgs.lefthook
           ];
         };
       }
